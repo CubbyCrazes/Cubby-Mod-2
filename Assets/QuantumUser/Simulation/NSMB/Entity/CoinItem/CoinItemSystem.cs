@@ -50,7 +50,15 @@ namespace Quantum {
                 } else if (coinItem->BlockSpawn) {
                     // Spawning from a block. Lerp between origin & destination.
                     FP t = 1 - ((FP) coinItem->SpawnAnimationFrames / (FP) coinItem->BlockSpawnAnimationLength);
-                    transform->Position = FPVector2.Lerp(coinItem->BlockSpawnOrigin, coinItem->BlockSpawnDestination, t);
+                    if (coinItem->FeatherFall) {
+                        if ((!QuantumUtils.Decrement(ref coinItem->SpawnAnimationFrames)) && coinItem->SpawnAnimationFrames > 0) {
+                            transform->Position = new FPVector2(transform->Position.X, (transform->Position.Y + ((1 - t) / 8)));
+                        } else {
+                            coinItem->BlockSpawn = false;
+                        }
+                    } else {
+                        transform->Position = FPVector2.Lerp(coinItem->BlockSpawnOrigin, coinItem->BlockSpawnDestination, t);
+                    }
 
                     if (interactable != null && coinItem->SpawnAnimationFrames == 7) {
                         interactable->ColliderDisabled = false;
@@ -94,10 +102,10 @@ namespace Quantum {
                 }
             } else {
                 if (coinItem->FeatherFall) {
-                    float BX = (SX + Mathf.Sin((coinItem->Incr * Mathf.PI) / 60000f));
-                    float BY = (SY + (Mathf.Abs(Mathf.Pow(Mathf.Sin((coinItem->Incr * Mathf.PI) / 60000f),2f) * 0.5f) - (coinItem->Incr / 60000f)));
-                    transform->Position = new FPVector2(FP.FromString(BX.ToString()), FP.FromString(BY.ToString()));
-                    coinItem->Incr += (int) (((coinItem->Incr + 1000) >= 10000) ? 1000 : ((coinItem->Incr + 1000) / 10f));
+                        float BX = (SX + Mathf.Sin((coinItem->Incr * Mathf.PI) / 60000f));
+                        float BY = (SY + (Mathf.Abs(Mathf.Pow(Mathf.Sin((coinItem->Incr * Mathf.PI) / 60000f), 2f) * 0.5f) - (coinItem->Incr / 60000f)));
+                        transform->Position = new FPVector2(FP.FromString(BX.ToString()), FP.FromString(BY.ToString()));
+                        coinItem->Incr += (int) (((coinItem->Incr + 1000) >= 10000) ? 1000 : ((coinItem->Incr + 1000) / 10f));
                 }
             }
 

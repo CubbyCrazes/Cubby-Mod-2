@@ -632,6 +632,7 @@ MonoBehaviour:
   AnimationList:
   - {fileID: 7400000, guid: 72b10467aa195f6409a95fcfb5502dfe, type: 2}
   - {fileID: 7400000, guid: 9ece0cd1088be5f4999ed484908ad5d1, type: 2}
+  - {fileID: 7400000, guid: 9ece0cd1088be5f4999ed484908ad5d1, type: 2}
   AnimatorOutput: {fileID: 130453169333135730}
 --- !u!1 &6306428316705399139
 GameObject:
@@ -784,6 +785,12 @@ MonoBehaviour:
     - {fileID: 892958909, guid: 8154a84b219ce474299d18054172a2b4, type: 3}
     - {fileID: 243619171, guid: 8154a84b219ce474299d18054172a2b4, type: 3}
     Fps: 4
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1527750387, guid: 5d2e01aad69661d4f94412cc76729771, type: 3}
+    - {fileID: 204571773, guid: 5d2e01aad69661d4f94412cc76729771, type: 3}
+    Fps: 6
   UseSingleRenderer: 0
 --- !u!114 &2544033198901404384
 MonoBehaviour:

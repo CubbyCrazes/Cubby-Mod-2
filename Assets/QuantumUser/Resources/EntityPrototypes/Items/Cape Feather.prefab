@@ -127,6 +127,11 @@ MonoBehaviour:
     Sprites:
     - {fileID: 1755229272, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 60
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1607875035, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 60
   UseSingleRenderer: 0
 --- !u!114 &8427713262258514243
 MonoBehaviour:
@@ -636,3 +641,5 @@ MonoBehaviour:
     FeatherFall:
       Value: 1
     Incr: 0
+    LaunchSpawn:
+      Value: 1

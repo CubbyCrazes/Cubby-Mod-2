@@ -151,6 +151,11 @@ MonoBehaviour:
     - {fileID: 1570297436, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     - {fileID: 1491094701, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 10
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1791195228, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 10
   UseSingleRenderer: 0
 --- !u!1 &4906836673655678842
 GameObject:
@@ -5148,9 +5153,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4075687598146694220, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
+      propertyPath: ListOfObject.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075687598146694220, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
       propertyPath: 'ListOfObject.Array.data[1]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 292512934481579689}
+    - target: {fileID: 4075687598146694220, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'ListOfObject.Array.data[2]'
+      value: 
+      objectReference: {fileID: 292512934481579689}
     - target: {fileID: 6989136294608042370, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
       propertyPath: Prototype.TerminalVelocity.RawValue
@@ -5239,6 +5254,7 @@ MonoBehaviour:
   ListOfObject:
   - {fileID: 960770820120660359}
   - {fileID: 292512934481579689}
+  - {fileID: 292512934481579689}
   NoOfFrames: 0
 --- !u!114 &100153830581891694
 MonoBehaviour:
@@ -5254,6 +5270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnimatorList:
   - {fileID: 9100000, guid: 922cc8db05b83d14abd00eedc91ef837, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   AnimatorOutput: {fileID: 3726716108760662804}
 --- !u!4 &8509900707630130969 stripped

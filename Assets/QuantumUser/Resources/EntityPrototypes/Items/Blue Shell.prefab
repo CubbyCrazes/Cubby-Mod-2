@@ -126,6 +126,11 @@ MonoBehaviour:
     Sprites:
     - {fileID: 501699288, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 1
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 868347715, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 1
   UseSingleRenderer: 1
 --- !u!1 &8827954065146181532
 GameObject:
@@ -5125,6 +5130,7 @@ PrefabInstance:
     - {fileID: 0}
     - {fileID: 3726716108760662804, guid: 9bcb5effadc837a45b61571768c543cf, type: 3}
     - {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf, type: 3}
+    - {fileID: 2430762061877431945, guid: 9bcb5effadc837a45b61571768c543cf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8509900707630130969, guid: 9bcb5effadc837a45b61571768c543cf,
@@ -5167,6 +5173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListOfObject:
   - {fileID: 4140882670077451248}
+  - {fileID: 4427797587850761262}
   - {fileID: 4427797587850761262}
   NoOfFrames: 0
 --- !u!4 &4772466204091643246 stripped

@@ -140,6 +140,14 @@ MonoBehaviour:
     - {fileID: 24941864, guid: 66283b3b4576e0a4f9764772ef3b841d, type: 3}
     - {fileID: -181058483, guid: 66283b3b4576e0a4f9764772ef3b841d, type: 3}
     Fps: 10
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: -1486617493, guid: 9c8cd32518b7ba54a8695816110cccd2, type: 3}
+    - {fileID: -232613221, guid: 9c8cd32518b7ba54a8695816110cccd2, type: 3}
+    - {fileID: -284692849, guid: 9c8cd32518b7ba54a8695816110cccd2, type: 3}
+    - {fileID: 2066683645, guid: 9c8cd32518b7ba54a8695816110cccd2, type: 3}
+    Fps: 12
   UseSingleRenderer: 0
 --- !u!1 &3286581577125373952
 GameObject:

@@ -236,12 +236,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
+      propertyPath: SpriteList.Array.data[2].Fps
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
       propertyPath: SpriteList.Array.data[0].Sprites.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
       propertyPath: SpriteList.Array.data[1].Sprites.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: SpriteList.Array.data[2].Sprites.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
@@ -279,6 +289,30 @@ PrefabInstance:
       propertyPath: 'SpriteList.Array.data[1].Sprites.Array.data[3]'
       value: 
       objectReference: {fileID: -1278161153, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -1625960470, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1277808960, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: -604022697, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: -1480873437, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
         type: 3}
     - target: {fileID: 8267315299044853521, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}

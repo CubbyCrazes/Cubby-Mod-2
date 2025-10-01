@@ -167,6 +167,11 @@ MonoBehaviour:
     Sprites:
     - {fileID: -1549435186, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 0
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1243448631, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 0
   UseSingleRenderer: 0
 --- !u!1001 &1501614932865800139
 PrefabInstance:
@@ -422,6 +427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListOfObject:
   - {fileID: 7027721433493957146}
+  - {fileID: 1391108364384645281}
   - {fileID: 1391108364384645281}
   NoOfFrames: 0
 --- !u!212 &1959685073963634097 stripped

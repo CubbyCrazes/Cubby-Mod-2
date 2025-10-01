@@ -153,6 +153,11 @@ MonoBehaviour:
     - {fileID: 1077657704, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     - {fileID: -1508615818, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 10
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 808178829, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 10
   UseSingleRenderer: 0
 --- !u!1 &6169465259319803859
 GameObject:
@@ -5240,6 +5245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListOfObject:
   - {fileID: 960770820120660359}
+  - {fileID: 1931005713635975066}
   - {fileID: 1931005713635975066}
   NoOfFrames: 0
 --- !u!114 &8399384808522008845

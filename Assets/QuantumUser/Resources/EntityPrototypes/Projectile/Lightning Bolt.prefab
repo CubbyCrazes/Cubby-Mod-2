@@ -342,6 +342,9 @@ MonoBehaviour:
   legacySpriteAnimator: {fileID: 9162743564300288012}
   sameTeamColor: {r: 1, g: 1, b: 1, a: 1}
   differentTeamColor: {r: 1, g: 1, b: 1, a: 1}
+  sfx: {fileID: 0}
+  BurnObject: {fileID: 0}
+  NormalObject: {fileID: 0}
 --- !u!114 &-8971064262029751978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,6 +552,12 @@ MonoBehaviour:
     Sprites:
     - {fileID: 1635462734, guid: 66283b3b4576e0a4f9764772ef3b841d, type: 3}
     - {fileID: 1016743445, guid: 66283b3b4576e0a4f9764772ef3b841d, type: 3}
+    Fps: 12
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 405047594, guid: 9c8cd32518b7ba54a8695816110cccd2, type: 3}
+    - {fileID: -1966479523, guid: 9c8cd32518b7ba54a8695816110cccd2, type: 3}
     Fps: 12
   UseSingleRenderer: 0
 --- !u!1 &7524634318836740490

@@ -280,6 +280,7 @@ namespace Quantum.Prototypes {
     public Int32 Lifetime;
     public QBoolean FeatherFall;
     public Int32 Incr;
+    public QBoolean LaunchSpawn;
     partial void MaterializeUser(Frame frame, ref Quantum.CoinItem result, in PrototypeMaterializationContext context);
     public override Boolean AddToEntity(FrameBase f, EntityRef entity, in PrototypeMaterializationContext context) {
         Quantum.CoinItem component = default;
@@ -291,6 +292,7 @@ namespace Quantum.Prototypes {
         result.Lifetime = this.Lifetime;
         result.FeatherFall = this.FeatherFall;
         result.Incr = this.Incr;
+        result.LaunchSpawn = this.LaunchSpawn;
         MaterializeUser(frame, ref result, in context);
     }
   }

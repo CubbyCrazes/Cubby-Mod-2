@@ -503,6 +503,7 @@ MonoBehaviour:
   ListOfObject:
   - {fileID: 8453737792750304721}
   - {fileID: 7509224713281815138}
+  - {fileID: 7509224713281815138}
   NoOfFrames: 0
 --- !u!1 &7509224713281815138
 GameObject:
@@ -630,6 +631,11 @@ MonoBehaviour:
     Item: 0
     Sprites:
     - {fileID: 1841426260, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 1
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 529052589, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 1
   UseSingleRenderer: 1
 --- !u!1 &8453737792750304721

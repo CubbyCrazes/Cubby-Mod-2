@@ -12,6 +12,7 @@ namespace NSMB.Entities.World {
         //---Serialized Variables
         [SerializeField] private SpriteRenderer sRenderer;
         [SerializeField] private AudioSource sfx;
+        [SerializeField] private Sprite[] spriteChecks;
 
         public void OnValidate() {
             this.SetIfNull(ref sRenderer);
@@ -34,6 +35,15 @@ namespace NSMB.Entities.World {
                 sprite = null;
             }
             sRenderer.sprite = sprite;
+
+            int I = 0;
+            while (I < spriteChecks.Length) {
+                if (sRenderer.sprite == spriteChecks[I]) {
+                    sRenderer.sprite = spriteChecks[I + 1];
+                    I = spriteChecks.Length;
+                }
+                I += 2;
+            }
 
             if (!IsReplayFastForwarding) {
                 sfx.Play();

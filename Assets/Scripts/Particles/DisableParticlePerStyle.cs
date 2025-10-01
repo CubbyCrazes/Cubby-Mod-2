@@ -7,6 +7,7 @@ public class DisableParticlePerStyle : MonoBehaviour {
     void Start() {
         switch ((int) Utils.GetStageTheme()) {
         case 1:
+        case 2:
             foreach (var die in ListOfObject) {
                 //die.transform.localPosition = new Vector3(-9999999f, -9999999f, 0);
                 die.transform.localScale = Vector3.zero;

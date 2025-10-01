@@ -246,6 +246,11 @@ MonoBehaviour:
     - {fileID: -120231711, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     - {fileID: 1611900048, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
     Fps: 20
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1134359764, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 20
   UseSingleRenderer: 0
 --- !u!1 &8509900707630130961 stripped
 GameObject:

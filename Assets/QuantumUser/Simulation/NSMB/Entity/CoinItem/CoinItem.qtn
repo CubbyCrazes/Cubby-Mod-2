@@ -5,7 +5,7 @@ component CoinItem {
 	int Incr;
 	[ExcludeFromPrototype] PowerupSpawnReason SpawnReason;
 	[ExcludeFromPrototype] bool BlockSpawn;
-	[ExcludeFromPrototype] bool LaunchSpawn;
+	bool LaunchSpawn;
 	[ExcludeFromPrototype] FPVector2 BlockSpawnOrigin;
 	[ExcludeFromPrototype] FPVector2 BlockSpawnDestination;
 	[ExcludeFromPrototype] byte BlockSpawnAnimationLength;

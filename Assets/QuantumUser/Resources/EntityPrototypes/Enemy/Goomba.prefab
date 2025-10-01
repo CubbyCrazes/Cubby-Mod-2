@@ -399,6 +399,7 @@ MonoBehaviour:
   deadSprite:
   - {fileID: -728934508601558331, guid: b455056ca00f84e48a8040f94ae8170d, type: 3}
   - {fileID: 1601886675, guid: 3535633c30e86c549b880191782ff9a4, type: 3}
+  - {fileID: -891533873, guid: 5d2e01aad69661d4f94412cc76729771, type: 3}
   specialKillParticle: {fileID: 761201321277025702, guid: d0dec86b8ad08184d9da50d1f76fc7bd,
     type: 3}
   legacyAnimation: {fileID: 2072787540995169967}

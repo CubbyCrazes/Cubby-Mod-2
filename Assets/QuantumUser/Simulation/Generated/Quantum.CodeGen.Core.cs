@@ -1742,7 +1742,6 @@ namespace Quantum {
     [ExcludeFromPrototype()]
     public QBoolean BlockSpawn;
     [FieldOffset(20)]
-    [ExcludeFromPrototype()]
     public QBoolean LaunchSpawn;
     [FieldOffset(56)]
     [ExcludeFromPrototype()]

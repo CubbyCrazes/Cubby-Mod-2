@@ -15,9 +15,12 @@ MonoBehaviour:
   clip:
   - {fileID: 8300000, guid: 80e6fe6f66166f04e8beccc08fe56422, type: 3}
   - {fileID: 8300000, guid: 1ca866c5280e85746a38fe74746c7f28, type: 3}
+  - {fileID: 8300000, guid: 1ca866c5280e85746a38fe74746c7f28, type: 3}
   loopStartSeconds:
   - 1.368
   - 0
+  - 0
   loopEndSeconds:
   - 1.668
+  - 999
   - 999

@@ -709,4 +709,5 @@ MonoBehaviour:
   AnimatorList:
   - {fileID: 9100000, guid: ceceee3f37dacee4bbc211ca77b3e26a, type: 2}
   - {fileID: 22100000, guid: eedf1d52bb5fb314da9f7ef62abe84da, type: 2}
+  - {fileID: 22100000, guid: eedf1d52bb5fb314da9f7ef62abe84da, type: 2}
   AnimatorOutput: {fileID: 3696720750550087088}

@@ -36,12 +36,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4462257224907729137, guid: 4f50cb5e806289d43bf820de1f1347bb,
         type: 3}
-      propertyPath: NetworkGuid.RawGuidValue.Array.data[0]
+      propertyPath: 'NetworkGuid.RawGuidValue.Array.data[0]'
       value: -3157435927925294964
       objectReference: {fileID: 0}
     - target: {fileID: 4462257224907729137, guid: 4f50cb5e806289d43bf820de1f1347bb,
         type: 3}
-      propertyPath: NetworkGuid.RawGuidValue.Array.data[1]
+      propertyPath: 'NetworkGuid.RawGuidValue.Array.data[1]'
       value: 1233864249221731145
       objectReference: {fileID: 0}
     - target: {fileID: 5521876106847805377, guid: 4f50cb5e806289d43bf820de1f1347bb,
@@ -55,6 +55,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3022792133873789726, guid: 60f25f7bee1a7f84c946884c48261f34,
         type: 3}
+    - target: {fileID: 8607733709790314889, guid: 4f50cb5e806289d43bf820de1f1347bb,
+        type: 3}
+      propertyPath: 'AnimatorList.Array.data[2]'
+      value: 
+      objectReference: {fileID: 22100000, guid: eecae2937d5833d41b04ffc6c91445c2,
+        type: 2}
     - target: {fileID: 8786985841086654504, guid: 4f50cb5e806289d43bf820de1f1347bb,
         type: 3}
       propertyPath: interpolate

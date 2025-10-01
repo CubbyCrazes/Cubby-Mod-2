@@ -130,6 +130,16 @@ PrefabInstance:
       propertyPath: 'NetworkGuid.RawGuidValue.Array.data[1]'
       value: -6632642548860961925
       objectReference: {fileID: 0}
+    - target: {fileID: 4075687598146694220, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: ListOfObject.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075687598146694220, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'ListOfObject.Array.data[2]'
+      value: 
+      objectReference: {fileID: 3230455370768988434}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
       propertyPath: SpriteAnimator
@@ -147,6 +157,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
+      propertyPath: SpriteList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
       propertyPath: SpriteList.Array.data[0].Fps
       value: 6
       objectReference: {fileID: 0}
@@ -157,12 +172,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
+      propertyPath: SpriteList.Array.data[2].Fps
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
       propertyPath: SpriteList.Array.data[0].Sprites.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
       propertyPath: SpriteList.Array.data[1].Sprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: SpriteList.Array.data[2].Sprites.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
@@ -201,6 +226,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1278161153, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
         type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 650913196, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
     - target: {fileID: 8267315299044853521, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
       propertyPath: m_Size.x
@@ -215,7 +246,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -4108787663010400821, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+      objectReference: {fileID: 198277118, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
         type: 3}
     - target: {fileID: 8267315299044853521, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
@@ -256,7 +287,7 @@ MonoBehaviour:
   runInEditor: 0
   fps: 8
   frames:
-  - {fileID: -4108787663010400821, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+  - {fileID: 198277118, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
   colorblindModeFrames: []
   useUnscaledDelta: 0
   sRenderer: {fileID: 3916343226960182369}

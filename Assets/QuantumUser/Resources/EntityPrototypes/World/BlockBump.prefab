@@ -251,6 +251,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sRenderer: {fileID: 1318658099548342143}
   sfx: {fileID: -7945987463487596907}
+  spriteChecks:
+  - {fileID: -728147960, guid: 3e93f9704b720d041aab6e1a5cbff35f, type: 3}
+  - {fileID: -1045466814, guid: 3e93f9704b720d041aab6e1a5cbff35f, type: 3}
+  - {fileID: 2108763084, guid: 3e93f9704b720d041aab6e1a5cbff35f, type: 3}
+  - {fileID: 560013574, guid: 3e93f9704b720d041aab6e1a5cbff35f, type: 3}
 --- !u!212 &1318658099548342143
 SpriteRenderer:
   m_ObjectHideFlags: 0

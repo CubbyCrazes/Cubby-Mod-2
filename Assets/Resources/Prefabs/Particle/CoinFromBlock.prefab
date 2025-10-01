@@ -138,6 +138,7 @@ MonoBehaviour:
   ListOfObject:
   - {fileID: 4355208377236206570}
   - {fileID: 5524271007591888803}
+  - {fileID: 5524271007591888803}
   NoOfFrames: 0
 --- !u!114 &5365230053855248977
 MonoBehaviour:
@@ -153,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoinInQuestion: {fileID: 4355208377719065490}
   Downward: 0
+  BeginningPosition: {x: 0, y: 0}
 --- !u!1 &5524271007591888803
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,5 +316,10 @@ MonoBehaviour:
     - {fileID: 1028010879, guid: 8154a84b219ce474299d18054172a2b4, type: 3}
     - {fileID: -760443518, guid: 8154a84b219ce474299d18054172a2b4, type: 3}
     - {fileID: 957756902, guid: 8154a84b219ce474299d18054172a2b4, type: 3}
+    Fps: 20
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: -1305814697, guid: 5d2e01aad69661d4f94412cc76729771, type: 3}
     Fps: 20
   UseSingleRenderer: 0

@@ -247,6 +247,7 @@ MonoBehaviour:
   breakPrefab:
   - {fileID: 6779589790155936114, guid: 18ec030fd34201b4c90cac2de9b22a2d, type: 3}
   - {fileID: 6779589790155936114, guid: 0cc05a91eb148ee458817529349e1950, type: 3}
+  - {fileID: 6779589790155936114, guid: 743ef1b5903d64f4e9aadff613c52441, type: 3}
   nitroSmoke: {fileID: 3451450600196169398}
   isNitro: {fileID: 5797669296129466210}
   isNotNitro: {fileID: 5906585881545024381}
@@ -436,6 +437,8 @@ MonoBehaviour:
   Prototype:
     SlidingSpeed:
       RawValue: 344064
+    IsNitro:
+      Value: 0
 --- !u!114 &5466463427177246889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +598,11 @@ MonoBehaviour:
     Item: 0
     Sprites:
     - {fileID: 941321901, guid: 9b39c43f1274b4846adc8cd2304dd2f9, type: 3}
+    Fps: 0
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 959239219, guid: 9b39c43f1274b4846adc8cd2304dd2f9, type: 3}
     Fps: 0
   - State: 0
     Item: 0

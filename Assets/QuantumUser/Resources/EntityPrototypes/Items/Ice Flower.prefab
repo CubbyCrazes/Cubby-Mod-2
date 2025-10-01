@@ -16,6 +16,21 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf,
         type: 3}
+      propertyPath: SpriteList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf,
+        type: 3}
+      propertyPath: SpriteList.Array.data[3].Fps
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf,
+        type: 3}
+      propertyPath: SpriteList.Array.data[3].Sprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf,
+        type: 3}
       propertyPath: 'SpriteList.Array.data[0].Sprites.Array.data[0]'
       value: 
       objectReference: {fileID: 4928671260392873470, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
@@ -43,6 +58,18 @@ PrefabInstance:
       propertyPath: 'SpriteList.Array.data[1].Sprites.Array.data[3]'
       value: 
       objectReference: {fileID: -144011697, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 860425086, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4187851216033241612, guid: 9bcb5effadc837a45b61571768c543cf,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[3].Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1134359764, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
         type: 3}
     - target: {fileID: 4650848445799127066, guid: 9bcb5effadc837a45b61571768c543cf,
         type: 3}

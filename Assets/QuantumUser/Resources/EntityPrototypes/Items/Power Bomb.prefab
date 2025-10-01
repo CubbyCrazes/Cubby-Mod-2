@@ -157,8 +157,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
+      propertyPath: SpriteList.Array.data[2].Fps
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
       propertyPath: SpriteList.Array.data[1].Sprites.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: SpriteList.Array.data[2].Sprites.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}
@@ -177,6 +187,30 @@ PrefabInstance:
       propertyPath: 'SpriteList.Array.data[1].Sprites.Array.data[1]'
       value: 
       objectReference: {fileID: -1645745334, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1160634779, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -769813272, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 705342130, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
+        type: 3}
+    - target: {fileID: 4876451138604418642, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
+        type: 3}
+      propertyPath: 'SpriteList.Array.data[2].Sprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1220856922, guid: 794bc215dd02bf34ab2cfae7702bfdfd,
         type: 3}
     - target: {fileID: 6989136294608042370, guid: 6dbe32ab0e6d5bc4c8fe9722f4c86d19,
         type: 3}

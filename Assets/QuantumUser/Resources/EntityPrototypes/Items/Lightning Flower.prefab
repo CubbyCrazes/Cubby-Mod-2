@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3114115786884930765}
   - component: {fileID: 7519769903664164605}
   - component: {fileID: 2576645403318267935}
+  - component: {fileID: 3774891781976768296}
   m_Layer: 19
   m_Name: Retro
   m_TagString: Untagged
@@ -125,6 +126,39 @@ MonoBehaviour:
   useUnscaledDelta: 0
   sRenderer: {fileID: 3114115786884930765}
   image: {fileID: 0}
+--- !u!114 &3774891781976768296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168146477296922266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bae64d07946894c9629349d5768bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteAnimator: {fileID: 2576645403318267935}
+  SpriteSingleAnimator: {fileID: 0}
+  SpriteList:
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1642663975, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 0
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 435291596, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    - {fileID: 945556004, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    - {fileID: -668131385, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 10
+  - State: 0
+    Item: 0
+    Sprites:
+    - {fileID: 1747095400, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+    Fps: 10
+  UseSingleRenderer: 0
 --- !u!1 &2970108422686121724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5209,6 +5243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListOfObject:
   - {fileID: 960770820120660359}
+  - {fileID: 2168146477296922266}
   - {fileID: 2168146477296922266}
   NoOfFrames: 0
 --- !u!114 &7230159021529390843
